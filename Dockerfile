@@ -4,5 +4,5 @@ RUN apk --update add postgresql-client git bash && rm -rf /var/cache/apk/*
 
 RUN gem install schema-evolution-manager
 
-RUN mkdir /app
-WORKDIR /app
+RUN mkdir /db
+WORKDIR /db
